@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><driver-configuration config-type="app-config" dn="cn=User Application Driver,cn=driverset1,o=system" driver-set-dn="cn=driverset1,o=system" name="User Application Driver">
+    <children>
+        <provisioning>
+            <ds-object ds-object-class="srvprvAppConfig" ds-object-name="AppConfig">
+                <ds-attribute ds-attr-name="Version">
+                    <ds-value>4.8</ds-value>
+                </ds-attribute>
+                <ds-object ds-object-class="nrfAuthTypes" ds-object-name="AuthTypes">
+                    <ds-attributes/>
+                </ds-object>
+                <ds-object ds-object-class="nrfUIConfig" ds-object-name="UIConfig">
+                    <ds-attributes/>
+                    <ds-object ds-object-class="nrfNavItems" ds-object-name="NavItems">
+                        <ds-attributes/>
+                    </ds-object>
+                </ds-object>
+                <ds-object ds-object-class="srvprvAppDefs" ds-object-name="AppDefs">
+                    <ds-attributes/>
+                </ds-object>
+                <ds-object ds-object-class="srvprvJSONForms" ds-object-name="WorkflowForms">
+                    <ds-attributes/>
+                    <ds-object ds-object-class="srvprvJSONForms" ds-object-name="WorkflowApprovalForms">
+                        <ds-attributes/>
+                    </ds-object>
+                    <ds-object ds-object-class="srvprvJSONForms" ds-object-name="WorkflowRequestForms">
+                        <ds-attributes/>
+                    </ds-object>
+                    <ds-object ds-object-class="srvprvJSONForms" ds-object-name="WorkflowTemplateForms">
+                        <ds-attributes/>
+                    </ds-object>
+                </ds-object>
+                <ds-object ds-object-class="srvprvDirectoryModel" ds-object-name="DirectoryModel">
+                    <ds-attributes/>
+                    <ds-object ds-object-class="srvprvChoiceDefs" ds-object-name="ChoiceDefs">
+                        <ds-attributes/>
+                    </ds-object>
+                    <ds-object ds-object-class="srvprvEntityDefs" ds-object-name="EntityDefs">
+                        <ds-attributes/>
+                        <ds-object ds-object-class="srvprvEntity" ds-object-name="CCILGroupEntity">
+                            <ds-attributes>
+                                <ds-attribute ds-attr-name="Description">
+                                    <ds-value>CCILGroupEntity</ds-value>
+                                </ds-attribute>
+                                <ds-attribute ds-attr-name="srvprvEntityType">
+                                    <ds-value>P</ds-value>
+                                </ds-attribute>
+                                <ds-attribute ds-attr-name="XMLData">
+                                    <ds-value><![CDATA[PGVudGl0eS1kZWZpbml0aW9uIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiCiAgICAgICAgeHNpOm5vTmFtZXNwYWNlU2NoZW1hTG9jYXRpb249Ii4uLy4uLy4uLy4uLy4uLy4uLy4uL3htbC12YWxpZGF0aW9uL2NvbmYvc2NoZW1hL0RpcmVjdG9yeU1vZGVsWG1sRGF0YTNfNV8wLnhzZCI+PGVudGl0eQogICAgICAgIGF1dG8tcXVlcnk9ImZhbHNlIiBjcmVhdGFibGU9InRydWUiIGVkaXRhYmxlPSJ0cnVlIgogICAgICAgIHByb3RlY3RlZD0iZmFsc2UiIHJlbW92YWJsZT0idHJ1ZSIgc3lzdGVtPSJmYWxzZSIKICAgICAgICAgICAgdmlld2FibGU9InRydWUiPgogICAgICAgIDxkaXNwbGF5CiAgICAgICAgICAgIHhtbDpsYW5nPSJkZSI+CiAgICAgICAgICAgIDxsYWJlbD5DQ0lMR3JvdXBFbnRpdHk8L2xhYmVsPgogICAgICAgIDwvZGlzcGxheT4KICAgICAgICA8ZGlzcGxheQogICAgICAgICAgICB4bWw6bGFuZz0icnUiPgogICAgICAgICAgICA8bGFiZWw+Q0NJTEdyb3VwRW50aXR5PC9sYWJlbD4KICAgICAgICA8L2Rpc3BsYXk+CiAgICAgICAgPGRpc3BsYXkKICAgICAgICAgICAgeG1sOmxhbmc9InN2Ij4KICAgICAgICAgICAgPGxhYmVsPkNDSUxHcm91cEVudGl0eTwvbGFiZWw+CiAgICAgICAgPC9kaXNwbGF5PgogICAgICAgIDxkaXNwbGF5CiAgICAgICAgICAgIHhtbDpsYW5nPSJwdCI+CiAgICAgICAgICAgIDxsYWJlbD5DQ0lMR3JvdXBFbnRpdHk8L2xhYmVsPgogICAgICAgIDwvZGlzcGxheT4KICAgICAgICA8ZGlzcGxheQogICAgICAgICAgICB4bWw6bGFuZz0iemgtVFciPgogICAgICAgICAgICA8bGFiZWw+Q0NJTEdyb3VwRW50aXR5PC9sYWJlbD4KICAgICAgICA8L2Rpc3BsYXk+CiAgICAgICAgPGRpc3BsYXkKICAgICAgICAgICAgeG1sOmxhbmc9ImVuIj4KICAgICAgICAgICAgPGxhYmVsPkNDSUxHcm91cEVudGl0eTwvbGFiZWw+CiAgICAgICAgPC9kaXNwbGF5PgogICAgICAgIDxkaXNwbGF5CiAgICAgICAgICAgIHhtbDpsYW5nPSJpdCI+CiAgICAgICAgICAgIDxsYWJlbD5DQ0lMR3JvdXBFbnRpdHk8L2xhYmVsPgogICAgICAgIDwvZGlzcGxheT4KICAgICAgICA8ZGlzcGxheQogICAgICAgICAgICB4bWw6bGFuZz0iZnIiPgogICAgICAgICAgICA8bGFiZWw+Q0NJTEdyb3VwRW50aXR5PC9sYWJlbD4KICAgICAgICA8L2Rpc3BsYXk+CiAgICAgICAgPGRpc3BsYXkKICAgICAgICAgICAgeG1sOmxhbmc9InpoLUNOIj4KICAgICAgICAgICAgPGxhYmVsPkNDSUxHcm91cEVudGl0eTwvbGFiZWw+CiAgICAgICAgPC9kaXNwbGF5PgogICAgICAgIDxkaXNwbGF5CiAgICAgICAgICAgIHhtbDpsYW5nPSJlcyI+CiAgICAgICAgICAgIDxsYWJlbD5DQ0lMR3JvdXBFbnRpdHk8L2xhYmVsPgogICAgICAgIDwvZGlzcGxheT4KICAgICAgICA8ZGlzcGxheQogICAgICAgICAgICB4bWw6bGFuZz0iY3MiPgogICAgICAgICAgICA8bGFiZWw+Q0NJTEdyb3VwRW50aXR5PC9sYWJlbD4KICAgICAgICA8L2Rpc3BsYXk+CiAgICAgICAgPGRpc3BsYXkKICAgICAgICAgICAgeG1sOmxhbmc9Im5iIj4KICAgICAgICAgICAgPGxhYmVsPkNDSUxHcm91cEVudGl0eTwvbGFiZWw+CiAgICAgICAgPC9kaXNwbGF5PgogICAgICAgIDxkaXNwbGF5CiAgICAgICAgICAgIHhtbDpsYW5nPSJqYSI+CiAgICAgICAgICAgIDxsYWJlbD5DQ0lMR3JvdXBFbnRpdHk8L2xhYmVsPgogICAgICAgIDwvZGlzcGxheT4KICAgICAgICA8ZGlzcGxheQogICAgICAgICAgICB4bWw6bGFuZz0iZGEiPgogICAgICAgICAgICA8bGFiZWw+Q0NJTEdyb3VwRW50aXR5PC9sYWJlbD4KICAgICAgICA8L2Rpc3BsYXk+CiAgICAgICAgPGRpc3BsYXkKICAgICAgICAgICAgeG1sOmxhbmc9Im5sIj4KICAgICAgICAgICAgPGxhYmVsPkNDSUxHcm91cEVudGl0eTwvbGFiZWw+CiAgICAgICAgPC9kaXNwbGF5PjxzZWFyY2gtcm9vdD5vPWRhdGE8L3NlYXJjaC1yb290PjxzZWFyY2gtc2NvcGU+c3VidHJlZTwvc2VhcmNoLXNjb3BlPjxjcmVhdGUtY29udGFpbmVyPm89ZGF0YTwvY3JlYXRlLWNvbnRhaW5lcj4KICAgICAgICA8b2JqZWN0LWNsYXNzCiAgICAgICAgICAgIGF1eGlsaWFyeT0iZmFsc2UiCiAgICAgICAgICAgIHNlYXJjaD0idHJ1ZSI+CiAgICAgICAgICAgIDxsZGFwLW5hbWU+aW5ldE9yZ1BlcnNvbjwvbGRhcC1uYW1lPgogICAgICAgICAgICA8bmRzLW5hbWU+VXNlcjwvbmRzLW5hbWU+CiAgICAgICAgPC9vYmplY3QtY2xhc3M+CiAgICAgICAgPG9iamVjdC1jbGFzcwogICAgICAgICAgICBhZGQtYWx3YXlzPSJ0cnVlIiBhdXhpbGlhcnk9InRydWUiIHByb3RlY3RlZD0idHJ1ZSIKICAgICAgICAgICAgICAgIHNlYXJjaD0iZmFsc2UiPgogICAgICAgICAgICA8bGRhcC1uYW1lPnNydnBydlVzZXJBdXg8L2xkYXAtbmFtZT4KICAgICAgICAgICAgPG5kcy1uYW1lPnNydnBydlVzZXJBdXg8L25kcy1uYW1lPgogICAgICAgIDwvb2JqZWN0LWNsYXNzPgogICAgICAgIDxuYW1pbmctYXR0cmlidXRlPgogICAgICAgICAgICA8bGRhcC1uYW1lPjwvbGRhcC1uYW1lPgogICAgICAgICAgICA8bmRzLW5hbWU+PC9uZHMtbmFtZT4KICAgICAgICAgICAgPGRpc3BsYXkKICAgICAgICAgICAgICAgIHhtbDpsYW5nPSJkZSI+CiAgICAgICAgICAgICAgICA8bGFiZWw+QmVudXR6ZXItSUQ8L2xhYmVsPgogICAgICAgICAgICA8L2Rpc3BsYXk+CiAgICAgICAgICAgIDxkaXNwbGF5CiAgICAgICAgICAgICAgICB4bWw6bGFuZz0ic3YiPgogICAgICAgICAgICAgICAgPGxhYmVsPkFudsOkbmRhci1JRDwvbGFiZWw+CiAgICAgICAgICAgIDwvZGlzcGxheT4KICAgICAgICAgICAgPGRpc3BsYXkKICAgICAgICAgICAgICAgIHhtbDpsYW5nPSJydSI+CiAgICAgICAgICAgICAgICA8bGFiZWw+SUQg0L/QvtC70YzQt9C+0LLQsNGC0LXQu9GPPC9sYWJlbD4KICAgICAgICAgICAgPC9kaXNwbGF5PgogICAgICAgICAgICA8ZGlzcGxheQogICAgICAgICAgICAgICAgeG1sOmxhbmc9InB0Ij4KICAgICAgICAgICAgICAgIDxsYWJlbD5JRCBkbyBVc3XDoXJpbzwvbGFiZWw+CiAgICAgICAgICAgIDwvZGlzcGxheT4KICAgICAgICAgICAgPGRpc3BsYXkKICAgICAgICAgICAgICAgIHhtbDpsYW5nPSJ6aC1UVyI+CiAgICAgICAgICAgICAgICA8bGFiZWw+5L2/55So6ICFIElEPC9sYWJlbD4KICAgICAgICAgICAgPC9kaXNwbGF5PgogICAgICAgICAgICA8ZGlzcGxheQogICAgICAgICAgICAgICAgeG1sOmxhbmc9ImVuIj4KICAgICAgICAgICAgICAgIDxsYWJlbD5Vc2VyIElkPC9sYWJlbD4KICAgICAgICAgICAgPC9kaXNwbGF5PgogICAgICAgICAgICA8ZGlzcGxheQogICAgICAgICAgICAgICAgeG1sOmxhbmc9Iml0Ij4KICAgICAgICAgICAgICAgIDxsYWJlbD5JRCB1dGVudGU8L2xhYmVsPgogICAgICAgICAgICA8L2Rpc3BsYXk+CiAgICAgICAgICAgIDxkaXNwbGF5CiAgICAgICAgICAgICAgICB4bWw6bGFuZz0iZnIiPgogICAgICAgICAgICAgICAgPGxhYmVsPklEIHV0aWxpc2F0ZXVyPC9sYWJlbD4KICAgICAgICAgICAgPC9kaXNwbGF5PgogICAgICAgICAgICA8ZGlzcGxheQogICAgICAgICAgICAgICAgeG1sOmxhbmc9InpoLUNOIj4KICAgICAgICAgICAgICAgIDxsYWJlbD7nlKjmiLcgSUQ8L2xhYmVsPgogICAgICAgICAgICA8L2Rpc3BsYXk+CiAgICAgICAgICAgIDxkaXNwbGF5CiAgICAgICAgICAgICAgICB4bWw6bGFuZz0iZXMiPgogICAgICAgICAgICAgICAgPGxhYmVsPklEIGRlIHVzdWFyaW88L2xhYmVsPgogICAgICAgICAgICA8L2Rpc3BsYXk+CiAgICAgICAgICAgIDxkaXNwbGF5CiAgICAgICAgICAgICAgICB4bWw6bGFuZz0iY3MiPgogICAgICAgICAgICAgICAgPGxhYmVsPklEIHXFvml2YXRlbGU8L2xhYmVsPgogICAgICAgICAgICA8L2Rpc3BsYXk+CiAgICAgICAgICAgIDxkaXNwbGF5CiAgICAgICAgICAgICAgICB4bWw6bGFuZz0ibmIiPgogICAgICAgICAgICAgICAgPGxhYmVsPkJydWtlci1JRDwvbGFiZWw+CiAgICAgICAgICAgIDwvZGlzcGxheT4KICAgICAgICAgICAgPGRpc3BsYXkKICAgICAgICAgICAgICAgIHhtbDpsYW5nPSJqYSI+CiAgICAgICAgICAgICAgICA8bGFiZWw+44Om44O844K2SUQ8L2xhYmVsPgogICAgICAgICAgICA8L2Rpc3BsYXk+CiAgICAgICAgICAgIDxkaXNwbGF5CiAgICAgICAgICAgICAgICB4bWw6bGFuZz0iZGEiPgogICAgICAgICAgICAgICAgPGxhYmVsPkJydWdlci1pZDwvbGFiZWw+CiAgICAgICAgICAgIDwvZGlzcGxheT4KICAgICAgICAgICAgPGRpc3BsYXkKICAgICAgICAgICAgeG1sOmxhbmc9Im5sIj4KICAgICAgICAgICAgICAgIDxsYWJlbD5HZWJydWlrZXJzLWlkPC9sYWJlbD4KICAgICAgICAgICAgPC9kaXNwbGF5PgogICAgICAgIDwvbmFtaW5nLWF0dHJpYnV0ZT48ZWRpdC1lbnRpdHkta2V5PnVzZXI8L2VkaXQtZW50aXR5LWtleT4KICAgICAgICA8cGFzc3dvcmQKICAgICAgICAgICAgcmVxdWlyZWQtb24tY3JlYXRlPSJ0cnVlIi8+CiAgICA8L2VudGl0eT48YXR0cmlidXRlcz48YXR0cmlidXRlCiAgICAgICAgICAgIGVkaXRhYmxlPSJ0cnVlIiBlbmFibGVkPSJ0cnVlIiBoaWRlYWJsZT0iZmFsc2UiCiAgICAgICAgICAgIG11bHRpdmFsdWU9InRydWUiIHByb3RlY3RlZD0iZmFsc2UiIHJlYWRhYmxlPSJ0cnVlIgogICAgICAgICAgICByZXF1aXJlZD0iZmFsc2UiIHNlYXJjaGFibGU9InRydWUiCiAgICAgICAgICAgICAgICB2aWV3YWJsZT0idHJ1ZSI+PGtleT5ncm91cDwva2V5PjxsZGFwLW5hbWU+Z3JvdXBNZW1iZXJzaGlwPC9sZGFwLW5hbWU+PG5kcy1uYW1lPkdyb3VwIE1lbWJlcnNoaXA8L25kcy1uYW1lPjxkaXNwbGF5CiAgICAgICAgICAgICAgICB4bWw6bGFuZz0iZGUiPjxsYWJlbD5HcnVwcGU8L2xhYmVsPjwvZGlzcGxheT48ZGlzcGxheQogICAgICAgICAgICAgICAgeG1sOmxhbmc9InN2Ij48bGFiZWw+R3J1cHA8L2xhYmVsPjwvZGlzcGxheT48ZGlzcGxheQogICAgICAgICAgICAgICAgeG1sOmxhbmc9InJ1Ij48bGFiZWw+0JPRgNGD0L/Qv9CwPC9sYWJlbD48L2Rpc3BsYXk+PGRpc3BsYXkKICAgICAgICAgICAgICAgIHhtbDpsYW5nPSJwdCI+PGxhYmVsPkdydXBvPC9sYWJlbD48L2Rpc3BsYXk+PGRpc3BsYXkKICAgICAgICAgICAgICAgIHhtbDpsYW5nPSJ6aC1UVyI+PGxhYmVsPue+pOe1hDwvbGFiZWw+PC9kaXNwbGF5PjxkaXNwbGF5CiAgICAgICAgICAgICAgICB4bWw6bGFuZz0iZW4iPjxsYWJlbD5Hcm91cDwvbGFiZWw+PC9kaXNwbGF5PjxkaXNwbGF5CiAgICAgICAgICAgICAgICB4bWw6bGFuZz0iaXQiPjxsYWJlbD5HcnVwcG88L2xhYmVsPjwvZGlzcGxheT48ZGlzcGxheQogICAgICAgICAgICAgICAgeG1sOmxhbmc9ImZyIj48bGFiZWw+R3JvdXBlPC9sYWJlbD48L2Rpc3BsYXk+PGRpc3BsYXkKICAgICAgICAgICAgICAgIHhtbDpsYW5nPSJ6aC1DTiI+PGxhYmVsPue7hDwvbGFiZWw+PC9kaXNwbGF5PjxkaXNwbGF5CiAgICAgICAgICAgICAgICB4bWw6bGFuZz0iZXMiPjxsYWJlbD5HcnVwbzwvbGFiZWw+PC9kaXNwbGF5PjxkaXNwbGF5CiAgICAgICAgICAgICAgICB4bWw6bGFuZz0iY3MiPjxsYWJlbD5Ta3VwaW5hPC9sYWJlbD48L2Rpc3BsYXk+PGRpc3BsYXkKICAgICAgICAgICAgICAgIHhtbDpsYW5nPSJuYiI+PGxhYmVsPkdydXBwZTwvbGFiZWw+PC9kaXNwbGF5PjxkaXNwbGF5CiAgICAgICAgICAgICAgICB4bWw6bGFuZz0iamEiPjxsYWJlbD7jgrDjg6vjg7zjg5c8L2xhYmVsPjwvZGlzcGxheT48ZGlzcGxheQogICAgICAgICAgICAgICAgeG1sOmxhbmc9ImRhIj48bGFiZWw+R3J1cHBlPC9sYWJlbD48L2Rpc3BsYXk+PGRpc3BsYXkKICAgICAgICAgICAgICAgIHhtbDpsYW5nPSJubCI+PGxhYmVsPkdyb2VwPC9sYWJlbD48L2Rpc3BsYXk+PHR5cGU+RE48L3R5cGU+PHN1Yi10eXBlCiAgICAgICAgICAgIHR5cGU9IkROTG9va3VwIj48ZW50aXR5LWxvb2t1cC1rZXk+Z3JvdXA8L2VudGl0eS1sb29rdXAta2V5PjxhdHRyaWJ1dGUta2V5PkRlc2NyaXB0aW9uPC9hdHRyaWJ1dGUta2V5Pjx1cGRhdGUtdGFyZ2V0LWF0dHJpYnV0ZT48bGRhcC1uYW1lPmVxdWl2YWxlbnRUb01lPC9sZGFwLW5hbWU+PG5kcy1uYW1lPmVxdWl2YWxlbnRUb01lPC9uZHMtbmFtZT48L3VwZGF0ZS10YXJnZXQtYXR0cmlidXRlPjx1cGRhdGUtdGFyZ2V0LWF0dHJpYnV0ZT48bGRhcC1uYW1lPm1lbWJlcjwvbGRhcC1uYW1lPjxuZHMtbmFtZT5tZW1iZXI8L25kcy1uYW1lPjwvdXBkYXRlLXRhcmdldC1hdHRyaWJ1dGU+PGF1dG8tcXVlcnk+ZmFsc2U8L2F1dG8tcXVlcnk+PC9zdWItdHlwZT48L2F0dHJpYnV0ZT48YXR0cmlidXRlCiAgICAgICAgICAgIGVkaXRhYmxlPSJ0cnVlIiBlbmFibGVkPSJ0cnVlIiBoaWRlYWJsZT0iZmFsc2UiCiAgICAgICAgICAgIG11bHRpdmFsdWU9ImZhbHNlIiBwcm90ZWN0ZWQ9ImZhbHNlIiByZWFkYWJsZT0idHJ1ZSIKICAgICAgICAgICAgcmVxdWlyZWQ9InRydWUiIHNlYXJjaGFibGU9InRydWUiCiAgICAgICAgICAgICAgICB2aWV3YWJsZT0idHJ1ZSI+PGtleT5DTjwva2V5PjxsZGFwLW5hbWU+Y248L2xkYXAtbmFtZT48bmRzLW5hbWU+Q048L25kcy1uYW1lPjxkaXNwbGF5CiAgICAgICAgICAgIHhtbDpsYW5nPSJlbiI+PGxhYmVsPkNOPC9sYWJlbD48L2Rpc3BsYXk+PHR5cGU+U3RyaW5nPC90eXBlPjwvYXR0cmlidXRlPjxhdHRyaWJ1dGUKICAgICAgICAgICAgZWRpdGFibGU9InRydWUiIGVuYWJsZWQ9InRydWUiIGhpZGVhYmxlPSJmYWxzZSIKICAgICAgICAgICAgbXVsdGl2YWx1ZT0idHJ1ZSIgcHJvdGVjdGVkPSJmYWxzZSIgcmVhZGFibGU9InRydWUiCiAgICAgICAgICAgIHJlcXVpcmVkPSJmYWxzZSIgc2VhcmNoYWJsZT0iZmFsc2UiCiAgICAgICAgICAgICAgICB2aWV3YWJsZT0idHJ1ZSI+PGtleT5Hcm91cE1lbWJlcnNoaXA8L2tleT48bGRhcC1uYW1lPmdyb3VwTWVtYmVyc2hpcDwvbGRhcC1uYW1lPjxuZHMtbmFtZT5Hcm91cCBNZW1iZXJzaGlwPC9uZHMtbmFtZT48ZGlzcGxheQogICAgICAgICAgICB4bWw6bGFuZz0iZW4iPjxsYWJlbD5Hcm91cCBNZW1iZXJzaGlwPC9sYWJlbD48L2Rpc3BsYXk+PHR5cGU+RE48L3R5cGU+PC9hdHRyaWJ1dGU+PGF0dHJpYnV0ZQogICAgICAgICAgICBlZGl0YWJsZT0idHJ1ZSIgZW5hYmxlZD0idHJ1ZSIgaGlkZWFibGU9ImZhbHNlIgogICAgICAgICAgICBtdWx0aXZhbHVlPSJ0cnVlIiBwcm90ZWN0ZWQ9ImZhbHNlIiByZWFkYWJsZT0idHJ1ZSIKICAgICAgICAgICAgcmVxdWlyZWQ9ImZhbHNlIiBzZWFyY2hhYmxlPSJmYWxzZSIKICAgICAgICAgICAgICAgIHZpZXdhYmxlPSJ0cnVlIj48a2V5PlNlY3VyaXR5RXF1YWxzPC9rZXk+PGxkYXAtbmFtZT5zZWN1cml0eUVxdWFsczwvbGRhcC1uYW1lPjxuZHMtbmFtZT5TZWN1cml0eSBFcXVhbHM8L25kcy1uYW1lPjxkaXNwbGF5CiAgICAgICAgICAgIHhtbDpsYW5nPSJlbiI+PGxhYmVsPlNlY3VyaXR5IEVxdWFsczwvbGFiZWw+PC9kaXNwbGF5Pjx0eXBlPkROPC90eXBlPjwvYXR0cmlidXRlPgogICAgICAgIDxhdHRyaWJ1dGUKICAgICAgICAgICAgZWRpdGFibGU9InRydWUiIGVuYWJsZWQ9InRydWUiIGhpZGVhYmxlPSJmYWxzZSIKICAgICAgICAgICAgbXVsdGl2YWx1ZT0iZmFsc2UiIHByb3RlY3RlZD0iZmFsc2UiIHJlYWRhYmxlPSJ0cnVlIgogICAgICAgICAgICByZXF1aXJlZD0iZmFsc2UiIHNlYXJjaGFibGU9ImZhbHNlIgogICAgICAgICAgICAgICAgdmlld2FibGU9InRydWUiPgogICAgICAgICAgICA8a2V5PmdycHJjb2RlPC9rZXk+CiAgICAgICAgICAgIDxsZGFwLW5hbWU+Z3JwcmNvZGU8L2xkYXAtbmFtZT4KICAgICAgICAgICAgPG5kcy1uYW1lPmdycHJjb2RlPC9uZHMtbmFtZT4KICAgICAgICAgICAgPGRpc3BsYXkKICAgICAgICAgICAgeG1sOmxhbmc9ImVuIj4KICAgICAgICAgICAgICAgIDxsYWJlbD5ncnByY29kZTwvbGFiZWw+CiAgICAgICAgICAgIDwvZGlzcGxheT48dHlwZT5TdHJpbmc8L3R5cGU+CiAgICAgICAgPC9hdHRyaWJ1dGU+CiAgICAgICAgPGF0dHJpYnV0ZQogICAgICAgICAgICBlZGl0YWJsZT0idHJ1ZSIgZW5hYmxlZD0idHJ1ZSIgaGlkZWFibGU9ImZhbHNlIgogICAgICAgICAgICBtdWx0aXZhbHVlPSJmYWxzZSIgcHJvdGVjdGVkPSJmYWxzZSIgcmVhZGFibGU9InRydWUiCiAgICAgICAgICAgIHJlcXVpcmVkPSJmYWxzZSIgc2VhcmNoYWJsZT0iZmFsc2UiCiAgICAgICAgICAgICAgICB2aWV3YWJsZT0idHJ1ZSI+CiAgICAgICAgICAgIDxrZXk+Z3JwYWNvZGU8L2tleT4KICAgICAgICAgICAgPGxkYXAtbmFtZT5ncnBhY29kZTwvbGRhcC1uYW1lPgogICAgICAgICAgICA8bmRzLW5hbWU+Z3JwYWNvZGU8L25kcy1uYW1lPgogICAgICAgICAgICA8ZGlzcGxheQogICAgICAgICAgICB4bWw6bGFuZz0iZW4iPgogICAgICAgICAgICAgICAgPGxhYmVsPmdycGFjb2RlPC9sYWJlbD4KICAgICAgICAgICAgPC9kaXNwbGF5Pjx0eXBlPlN0cmluZzwvdHlwZT4KICAgICAgICA8L2F0dHJpYnV0ZT4KICAgICAgICA8YXR0cmlidXRlCiAgICAgICAgICAgIGVkaXRhYmxlPSJ0cnVlIiBlbmFibGVkPSJ0cnVlIiBoaWRlYWJsZT0iZmFsc2UiCiAgICAgICAgICAgIG11bHRpdmFsdWU9InRydWUiIHByb3RlY3RlZD0iZmFsc2UiIHJlYWRhYmxlPSJ0cnVlIgogICAgICAgICAgICByZXF1aXJlZD0iZmFsc2UiIHNlYXJjaGFibGU9ImZhbHNlIgogICAgICAgICAgICAgICAgdmlld2FibGU9InRydWUiPgogICAgICAgICAgICA8a2V5PkRlc2NyaXB0aW9uPC9rZXk+CiAgICAgICAgICAgIDxsZGFwLW5hbWU+ZGVzY3JpcHRpb248L2xkYXAtbmFtZT4KICAgICAgICAgICAgPG5kcy1uYW1lPkRlc2NyaXB0aW9uPC9uZHMtbmFtZT4KICAgICAgICAgICAgPGRpc3BsYXkKICAgICAgICAgICAgeG1sOmxhbmc9ImVuIj4KICAgICAgICAgICAgICAgIDxsYWJlbD5EZXNjcmlwdGlvbjwvbGFiZWw+CiAgICAgICAgICAgIDwvZGlzcGxheT4KICAgICAgICAgICAgPHR5cGU+U3RyaW5nPC90eXBlPgogICAgICAgIDwvYXR0cmlidXRlPgogICAgICAgIDxhdHRyaWJ1dGUKICAgICAgICAgICAgZWRpdGFibGU9InRydWUiIGVuYWJsZWQ9InRydWUiIGhpZGVhYmxlPSJmYWxzZSIKICAgICAgICAgICAgbXVsdGl2YWx1ZT0idHJ1ZSIgcHJvdGVjdGVkPSJmYWxzZSIgcmVhZGFibGU9InRydWUiCiAgICAgICAgICAgIHJlcXVpcmVkPSJmYWxzZSIgc2VhcmNoYWJsZT0iZmFsc2UiCiAgICAgICAgICAgICAgICB2aWV3YWJsZT0idHJ1ZSI+CiAgICAgICAgICAgIDxrZXk+aG9tZVBvc3RhbEFkZHJlc3M8L2tleT4KICAgICAgICAgICAgPGxkYXAtbmFtZT5ob21lUG9zdGFsQWRkcmVzczwvbGRhcC1uYW1lPgogICAgICAgICAgICA8bmRzLW5hbWU+aG9tZVBvc3RhbEFkZHJlc3M8L25kcy1uYW1lPgogICAgICAgICAgICA8ZGlzcGxheSB4bWw6bGFuZz0iZW4iPgogICAgICAgICAgICAgICAgPGxhYmVsPmhvbWVQb3N0YWxBZGRyZXNzPC9sYWJlbD4KICAgICAgICAgICAgPC9kaXNwbGF5PgogICAgICAgICAgICA8dHlwZT5TdHJpbmc8L3R5cGU+CiAgICAgICAgPC9hdHRyaWJ1dGU+CiAgICA8L2F0dHJpYnV0ZXM+PC9lbnRpdHktZGVmaW5pdGlvbj4K]]></ds-value>
+                                </ds-attribute>
+                            </ds-attributes>
+                        </ds-object>
+                    </ds-object>
+                    <ds-object ds-object-class="srvprvQueryDefs" ds-object-name="QueryDefs">
+                        <ds-attributes/>
+                    </ds-object>
+                    <ds-object ds-object-class="srvprvRelationshipDefs" ds-object-name="RelationshipDefs">
+                        <ds-attributes/>
+                    </ds-object>
+                </ds-object>
+                <ds-object ds-object-class="srvprvRequestDefs" ds-object-name="RequestDefs">
+                    <ds-attributes/>
+                </ds-object>
+                <ds-object ds-object-class="srvprvTeamDefs" ds-object-name="TeamDefs">
+                    <ds-attributes/>
+                </ds-object>
+                <ds-object ds-object-class="nrfConfig" ds-object-name="RoleConfig">
+                    <ds-attributes/>
+                    <ds-object ds-object-class="nrfAttestations" ds-object-name="Attestations">
+                        <ds-attributes/>
+                    </ds-object>
+                    <ds-object ds-object-class="nrfCPRSRequests" ds-object-name="CprsRequests">
+                        <ds-attributes/>
+                    </ds-object>
+                    <ds-object ds-object-class="nrfReportDefs" ds-object-name="ReportDefs">
+                        <ds-attributes/>
+                    </ds-object>
+                    <ds-object ds-object-class="nrfResourceDefs" ds-object-name="ResourceDefs">
+                        <ds-attributes/>
+                        <ds-object ds-object-class="nrfResourceDefs" ds-object-name="System">
+                            <ds-attributes/>
+                        </ds-object>
+                    </ds-object>
+                    <ds-object ds-object-class="nrfRoleDefs" ds-object-name="RoleDefs">
+                        <ds-attributes/>
+                        <ds-object ds-object-class="nrfRoleDefs" ds-object-name="Level10">
+                            <ds-attributes/>
+                        </ds-object>
+                        <ds-object ds-object-class="nrfRoleDefs" ds-object-name="Level20">
+                            <ds-attributes/>
+                            <ds-object ds-object-class="nrfRoleDefs" ds-object-name="System">
+                                <ds-attributes/>
+                            </ds-object>
+                        </ds-object>
+                        <ds-object ds-object-class="nrfRoleDefs" ds-object-name="Level30">
+                            <ds-attributes/>
+                        </ds-object>
+                    </ds-object>
+                    <ds-object ds-object-class="nrfResourceAssociations" ds-object-name="ResourceAssociations">
+                        <ds-attributes/>
+                    </ds-object>
+                    <ds-object ds-object-class="nrfResourceRequests" ds-object-name="ResourceRequests">
+                        <ds-attributes/>
+                    </ds-object>
+                    <ds-object ds-object-class="nrfSODDefs" ds-object-name="SoDDefs">
+                        <ds-attributes/>
+                    </ds-object>
+                </ds-object>
+            </ds-object>
+        </provisioning>
+    </children></driver-configuration>
