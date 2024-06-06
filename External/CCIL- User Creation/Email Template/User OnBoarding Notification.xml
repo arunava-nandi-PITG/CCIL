@@ -1,0 +1,58 @@
+<template name="User OnBoarding Notification" subject="Welcome to CCIL Member Application. Your Login Details Inside.">
+	<data>
+		<html xmlns:form="http://www.novell.com/dirxml/workflow/form">
+			<form:token-descriptions>
+				<form:token-description description="User Email" item-name="user_email"/>
+				<form:token-description description="User First Name" item-name="user_f_name"/>
+				<form:token-description description="User Last Name" item-name="user_l_name"/>
+			</form:token-descriptions>
+			<p>Dear $user_f_name$ $user_l_name$,</p>
+			<div>
+				<p> Welcome to CCIL Member Application.</p>
+			</div>
+			<p>
+				<div>
+					<p>
+        Your account has been successfully created, and you're now ready to access our platform. Below are your login
+        credentials:<br/>
+						<b>Username: $user_email$</b>
+						<br/>
+						<b>Password: [Default Password]</b>
+					</p>
+					<p>
+        For security purposes, we recommend changing your password after your initial login. Please follow the steps
+        below to log in:
+        Go to <a href="https://eidm.ccilindia.com/idmdash">https://eidm.ccilindia.com/idmdash</a>
+        Enter your username and the temporary password provided above.
+        Once logged in, please setup your secret question and answer for password recovery.<br/>
+					</p>
+					<p>
+						<b>Reset your password:</b>
+						<br/>
+        If you forgot your password go to url mentioned in point 1 and click on Forgot Password and then reset password
+        using secret question and answer setup by you.
+        Application Access URL <a href="https://ememberportal.ccilindia.com">https://ememberportal.ccilindia.com</a>
+        If you encounter any issues or have any questions, feel free to reach out to idamsupport@ccilindia.co.in
+    </p>
+				</div>
+			</p>
+			<p>
+				<div>
+    Regards,
+</div>
+				<div>
+					<div>
+						<b>The Clearing Corporation of India Ltd.</b>
+					</div>
+					<div>
+        Mumbai
+    </div>
+					<div>
+        CIN - U65990MH2001PLC131804
+    </div>
+					<p>(This is an auto-generated email, please do not reply to this email)</p>
+				</div>
+			</p>
+		</html>
+	</data>
+</template>

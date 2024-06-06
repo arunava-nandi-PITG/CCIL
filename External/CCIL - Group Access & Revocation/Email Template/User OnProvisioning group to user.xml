@@ -1,0 +1,35 @@
+<template name="User OnProvisioning group to user" subject="Access Granted to CCIL Member Application. You access details inside.">
+	<data>
+		<html xmlns:form="http://www.novell.com/dirxml/workflow/form">
+			<form:token-descriptions>
+				<form:token-description description="User First Name" item-name="user_f_name"/>
+				<form:token-description description="User Last Name" item-name="user_l_name"/>
+				<form:token-description description="User Email" item-name="user_email"/>
+				<form:token-description description="User Groups" item-name="user_groups"/>
+			</form:token-descriptions>
+			<p>Dear $user_f_name$ $user_l_name$,</p>
+			<p>Your email id $user_email$ has been granted access to following groups</p>
+			<p>
+    $user_groups$
+</p>
+			<p>If you encounter any issues or have any questions, feel free to reach out to idamsupport@ccilindia.co.in</p>
+			<p>
+				<div>
+    Regards,
+</div>
+				<div>
+					<div>
+						<b>The Clearing Corporation of India Ltd.</b>
+					</div>
+					<div>
+    Mumbai
+    </div>
+					<div>
+    CIN - U65990MH2001PLC131804
+    </div>
+					<p>(This is an auto-generated email, please do not reply to this email)</p>
+				</div>
+			</p>
+		</html>
+	</data>
+</template>
